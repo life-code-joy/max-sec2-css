@@ -3,9 +3,8 @@
 }
 
 body {
-  font-family: arial ;
+  font-family: arial;
   margin: 0;
-  
 }
 
 #product-overview {
@@ -25,20 +24,18 @@ body {
 }
 .main-header {
   width: 100%;
-  background-color:#2ddf5c;
+  background-color: #2ddf5c;
   padding: 8px 16px;
-
 }
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
 }
-.main-header__brand{
+.main-header__brand {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
-
 }
 .main-nav {
   display: inline-block;
@@ -46,10 +43,8 @@ body {
   width: calc(100% - 63px);
   vertical-align: middle;
 }
-.main-nav__item{
+.main-nav__item {
   display: inline-block;
-  /* margin: 30px; */
-  
 }
 .main-nav__items {
   padding: 0;
@@ -57,9 +52,46 @@ body {
   list-style: none;
 }
 
-.main-nav__items li > a {
+/* this worked but followed the video and used .main-header__item and .main-header__item a , to style the anchor tags  */
+/* .main-nav__items li > a {
   text-decoration: none;
   padding: 0 5px 0 5px;
   color:#0e4f1f;
   font-size: 1.2rem;
+} */
+
+.main-nav__item {
+  padding: 0 16px;
+  font-size: 1.2rem;
+  /* color: #0e4f1f; */
+}
+.main-nav__item a {
+  /* color: #0e4f1f; */
+  text-decoration: none;
+}
+
+/* pseudo classes :hover, :active etc */
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: white;
+}
+
+/* example using pseudo elements ::after and ::first-letter etc */
+
+/* .main-nav__item a:after {
+  content: " (link)";
+  color: red;
+}
+p::first-letter {
+  color: red;
+  font-size: 29px;
+} */
+
+/* grouping rules  */
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
 }
