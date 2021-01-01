@@ -115,27 +115,3 @@ p::first-letter {
   border:none
 }
 
-.box1 {
-  background-color: red;
-  padding: 20px;
-  width: 50%;
-  height: 200px;
-  display:inline-block;
-  
-  
-}
-.box2{
-  background-color: rgb(174, 18, 206);
-  padding: 20px;
-  width: 48%;
-  height: 200px;
-  display:inline-block;
-}
-
-.box2:hover {
-  background-color: rgb(83, 214, 149);
-  padding: 20px;
-  width: 48%;
-  height: 200px;
-  display:inline-block;
-}
